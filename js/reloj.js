@@ -55,12 +55,12 @@
 	actualizarHora();
 	var intervalo = setInterval(actualizarHora, 1000);
 	
-	if (horas = txthora) {
+	if (txthora = horas) {
 		$('#beep').tap(function(){
 			navigator.notification.beep(1);
 		});//tap beep
 	}
-	if (minutos = txtmin){
+	if (txtmin = minutos){
 		$('#vibrar').tap(function(){
 			navigator.notification.vibrate(1000);
 		});//tap beep
