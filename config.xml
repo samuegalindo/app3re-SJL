@@ -26,9 +26,9 @@ Galindo Rodriguez Esteban Samuel
 
 <!--Plugins-->
 <!--Core plugins-->
-<plugin name="cordova-plugin-device" spec="~1.1.4"/>
-<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
-<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+<plugin name="cordova-plugin-device" spec="~2.0.3" /
+<plugin name="cordova-plugin-vibration" spec="~3.1.1" />
+<plugin name="cordova-plugin-dialogs" spec="~2.0.2" />
 
 <!--<plugin name="cordova-plugin-whitelist" source="npm"/> -->
 <!--Third part plugins-->
