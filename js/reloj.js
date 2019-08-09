@@ -55,7 +55,7 @@
 	actualizarHora();
 	var intervalo = setInterval(actualizarHora, 1000);
 	
-	if (txthora = reloj) {
+	if (txthora = pHoras && txtmin == pMinutos) {
 		$('#beep').tap(function(){
 			navigator.notification.beep(1);
 		});//tap beep
